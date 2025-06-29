@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SWATI ELECTROTECH</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/_smooth.css">
+    <script defer src="assets/mainnav.js"></script>
+</head>
+<body>
+    <div class="logo-bar" style="justify-content: flex-start; margin-bottom: 8px;">
+        <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 18px; text-decoration: none;">
+            <img src="assets/logo.jpg" alt="SWATI ELECTROTECH Logo" class="logo-img" style="height: 70px; width: auto;"> 
+            <span style="font-size: 2.1rem; font-weight: 700; letter-spacing: 1px; color: #1a237e;">SWATI ELECTROTECH</span>
+        </a>
+    </div>
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <input type="checkbox" id="main-menu-toggle" class="main-menu-toggle" />
+            <label for="main-menu-toggle" class="main-hamburger" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="main-nav-links">
+                <li><a href="index.html"><i class="nav-icon home"></i> Home</a></li>
+                <li><a href="about.html"><i class="nav-icon about"></i> About Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" onclick="event.preventDefault(); this.parentElement.classList.toggle('open');"><i class="nav-icon business"></i> Our Business <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="software.html"><i class="nav-icon software"></i> Advanced Software</a></li>
+                        <li><a href="vlsi.html"><i class="nav-icon vlsi"></i> VLSI</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html"><i class="nav-icon contact"></i> Contact</a></li>
+                <li><a href="suggestion.html"><i class="nav-icon suggestion"></i> Suggestion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-content center-content mobile-center">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Reach out to us for any queries, collaborations, or support.</p>
+        <ul>
+            <li><strong>Email:</strong> info@swatielectrotech.com</li>
+            <li><strong>Phone:</strong> +91-12345-67890</li>
+            <li><strong>Address:</strong> 123, Tech Park, Bengaluru, India</li>
+            <li><strong>Office Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM IST</li>
+        </ul>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer class="site-footer">
+        <p class="footer-copyright">&copy; 2025 SWATI ELECTROTECH PRIVATE LIMITED. All rights reserved.</p>
+    </footer>
+</body>
+</html>

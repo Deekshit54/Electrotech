@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SWATI ELECTROTECH</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/_smooth.css">
+    <script defer src="assets/mainnav.js"></script>
+</head>
+<body>
+    <div class="logo-bar" style="justify-content: flex-start; margin-bottom: 8px;">
+        <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 18px; text-decoration: none;">
+            <img src="assets/logo.jpg" alt="SWATI ELECTROTECH Logo" class="logo-img" style="height: 70px; width: auto;"> 
+            <span style="font-size: 2.1rem; font-weight: 700; letter-spacing: 1px; color: #1a237e;">SWATI ELECTROTECH</span>
+        </a>
+    </div>
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <input type="checkbox" id="main-menu-toggle" class="main-menu-toggle" />
+            <label for="main-menu-toggle" class="main-hamburger" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="main-nav-links">
+                <li><a href="index.html"><i class="nav-icon home"></i> Home</a></li>
+                <li><a href="about.html"><i class="nav-icon about"></i> About Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" onclick="event.preventDefault(); this.parentElement.classList.toggle('open');"><i class="nav-icon business"></i> Our Business <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="software.html"><i class="nav-icon software"></i> Advanced Software</a></li>
+                        <li><a href="vlsi.html"><i class="nav-icon vlsi"></i> VLSI</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html"><i class="nav-icon contact"></i> Contact</a></li>
+                <li><a href="suggestion.html"><i class="nav-icon suggestion"></i> Suggestion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-content center-content mobile-center">
+        <h1>About Us</h1>
+        <p>Founded in 2020, SWATI ELECTROTECH PRIVATE LIMITED is dedicated to providing cutting-edge solutions in electronics, software, and VLSI. Our team consists of experienced engineers, developers, and innovators passionate about technology and its impact on society.</p>
+        <h2>Our Mission</h2>
+        <p>To drive technological advancement by delivering high-quality, reliable, and innovative products and services in the fields of electronics and software. We strive to empower our clients to achieve their goals through technology.</p>
+        <h2>Our Vision</h2>
+        <p>To be a global leader in advanced electronics and software solutions, shaping the future of technology for a smarter, more connected world.</p>
+        <h2>Our Leadership</h2>
+        <p>Our leadership team brings together decades of experience from top technology companies and research institutions. Their vision and expertise guide our company to new heights of innovation and excellence.</p>
+        <h2>Our Values</h2>
+        <ul>
+            <li><strong>Innovation:</strong> We constantly seek new ideas and creative solutions.</li>
+            <li><strong>Integrity:</strong> We act with honesty and transparency in all our dealings.</li>
+            <li><strong>Excellence:</strong> We are committed to delivering the highest quality in everything we do.</li>
+            <li><strong>Customer Focus:</strong> We put our clients at the center of our business.</li>
+        </ul>
+        <h2>Our Journey</h2>
+        <ul>
+            <li>2020: Company founded with a vision for advanced electronics and software.</li>
+            <li>2021: Launched first IoT and embedded solutions for industrial clients.</li>
+            <li>2022: Expanded into VLSI design and international markets.</li>
+            <li>2023: Recognized for innovation and quality by industry leaders.</li>
+            <li>2024: Partnered with Fortune 500 companies and expanded R&D.</li>
+        </ul>
+    </main>
+    <footer class="site-footer">
+        <p class="footer-copyright">&copy; 2025 SWATI ELECTROTECH PRIVATE LIMITED. All rights reserved.</p>
+    </footer>
+</body>
+</html>
